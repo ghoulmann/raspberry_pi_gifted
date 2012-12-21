@@ -1,10 +1,10 @@
+Raspberry Pi: A Guide for the Gifted
+------------------------------------
 
-{text:bookmark} {text:script} {text:script} Nearly free 
-to Share, Nearly Free to Remix 
+Nearly free to Share, Nearly Free to Remix 
 
-{draw:a} 
 
-{text:line-break} This work is licensed under a [Creative Commons 
+This work is licensed under a [Creative Commons 
 Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US). 
 
 Copyright 2012 by Rik Goldman and Sabre Goldman 
@@ -13,7 +13,7 @@ Not so Cryptic
 
 This is a QR code: 
 
-{draw:frame} If you know about QR codes, move along to the next 
+If you know about QR codes, move along to the next 
 bits. 
 
 QR stands for quick response. Like a bar code, it's meant to make 
@@ -95,16 +95,14 @@ To do:
 
 
 
-{text:bookmark} **1.** It's the New Black
+It's the New Black
 =========================================
 
 The Raspberry Pi is a credit-card sized, $35 computer produced 
 in the UK by a non-profit foundation committed to reforming computer 
 science and engineering for school-age children. 
 
-{text:soft-page-break} {draw:frame} 
-
-{draw:frame} However, because of its extensibility, price-point, 
+However, because of its extensibility, price-point, 
 and flexibility, Raspberry Pi proved an international favorite 
 of creative hackers and makers since its initial release in March 
 of 2012. In fact, at a December talk in DC, product representative 
@@ -113,7 +111,7 @@ anticipated a million sales by March 2013; in the first week of
 December 2012, a tweet from the Raspberry Foundation indicated 
 that 800,000 units had already been sold. 
 
-{text:bookmark} **2.** Compelling Reading, Too
+Compelling Reading, Too
 ==============================================
 
 Not only does the Raspberry Pi promote programming and engineering, 
@@ -125,44 +123,36 @@ by Simon Monk (2012)
 
 In the UK, as of mid-December: 
 
-* #1 in Higher Education of Engineering 
+* First in Higher Education of Engineering 
 
-* #1 in Electronics Engineering 
+* First in Electronics Engineering 
 
-* #1 in Engineering Teaching Aids 
-
-
+* First in Engineering Teaching Aids 
 
 In the US, as of mid December: 
 
-* #1 in Linux Operating Systems 
+* First in Linux Operating Systems 
 
-* #1 in Python Programming 
-
-
+* First in Python Programming 
 
 _The Raspberry Pi User Guide_ by Eben Upton and Gareth Halfacree 
 (2012) 
 
 In the UK, as of mid December: 
 
-* {text:soft-page-break} #1 in Computer Hardware 
-
-
+* First in Computer Hardware 
 
 In the US, as of mid-December: 
 
-* #3 in Computer Programming Language and Tools 
+* Third in Computer Programming Language and Tools 
 
-* #6 in Computer Hardware 
-
-
+* Sixth in Computer Hardware 
 
 Scan the [bibliography](../additional-reading), "Additional 
 Reading," in the appendices for more information about these 
 and other relevant titles. 
 
-{text:bookmark} **3.** Features
+Features
 ===============================
 
 The Raspberry Pi relies on processor technology (ARM11) more 
@@ -183,11 +173,7 @@ array. This feature makes the Raspberry Pi a very flexible and
 programmable brain for home automation and robotics projects, 
 for example. 
 
-{draw:frame} 
-
-Raspberry Pi Model B (256) in colored pencil by Sabre Goldman 
-
-{text:bookmark} **4.** Looking Forward
+Looking Forward
 ======================================
 
 To give these features some material perspective, consider 
@@ -210,8 +196,6 @@ the following Raspberry Pi use cases:
   for everything from arcade cabinets and early consoles like 
   Atari and Sega to 3D first-person shooters like Quake III: 
   Arena. 
-
-
 
 At the rapid pace users tend to get moving with the Raspberry Pi, 
 keep in mind that these once-innovative solutions have become 
@@ -249,9 +233,7 @@ hardly notice your increasing mastery:
   to find you're not only a programmer and systems administrator, 
   but also an electrical engineer. 
 
-
-
-{text:bookmark} **5.** Taking Stock
+Taking Stock
 ===================================
 
 The Raspberry Pi is flexible, versatile, and agile. Before first 
@@ -291,14 +273,14 @@ requirement:
 
 
 
-{draw:frame} 2GB has probably never really been seriously attempted 
+2GB has probably never really been seriously attempted 
 because it's entirely impractical given the size of the operating 
 system: Raspbian is just shy of 2GB. A 2GB card therefore leaves 
 very little space with which either the user or the computer can 
 do anything meaningful. A 4GB card leaves 2GB to work with: that's 
 a lot of room for code. It's not a comfortable fit for multimedia: 
 given, it's about two thousand minutes of music moderately encoded; 
-however, it won't hold a complete movie encoded for high {text:soft-page-break} 
+however, it won't hold a complete movie encoded for high
 definition. That would be a shame, given Raspberry Pi's video 
 capabilities. 8, 16, 32, 64GB SD cards are all viable options: 
 if you're going for a streaming media center or an arcade emulator, 
@@ -327,9 +309,7 @@ lifestyle:
 
 * Are you a competitive shopper? 
 
-
-
-{draw:frame} Checking hardware for Raspberry Pi compatibility 
+Checking hardware for Raspberry Pi compatibility 
 is best practice, whether you're shopping for a wireless adaptor 
 or for an SD card. To check for SD-card compatibility, see elinux's 
 section on the subject: [http://elinux.org/RPi_VerifiedPeripherals#SD_cards](http://elinux.org/RPi_VerifiedPeripherals#SD_cards). 
@@ -360,7 +340,7 @@ solutions at Target were extraordinarily overpriced by comparison).
 Power Supply Unit (PSU)
 -----------------------
 
-{draw:frame} Like a full PC PSU, a Raspberry Pi PSU does two things: 
+Like a full PC PSU, a Raspberry Pi PSU does two things: 
 
 1. it transforms alternating current (the power drawn from 
    the wall socket) into direct current (the power provided 
@@ -405,8 +385,6 @@ to help identify your needs; put one beside each true statement:
   than using a single device. 
 
 * I prefer sticker books over sentences. 
-
-
 
 When you finish, tally your score. If you scored 1 or above, you'll 
 be most comfortable with a mouse and keyboard combination. If 
@@ -463,8 +441,6 @@ options remained:
 * Repurpose a composite capable monitor intended for use on 
   a car dashboard. 
 
-
-
 Both options cost another $30 - $40. (The cheapest HDMI solution 
 is a tiny high-defintion TV for $99). The verdict was still out 
 by other early adoptors on the first option. So I bought a 7" TFT 
@@ -491,15 +467,14 @@ in this case and should save some dollars. I've spent $3 on an HDMI
 cable and I've spent $12 on an HDMI cable. I haven't noticed a difference, 
 but I also haven't tried audio through the cables. 
 
-{draw:frame} HDMI from the Raspberry Pi can be converted to VGA 
+HDMI from the Raspberry Pi can be converted to VGA 
 for use with legacy monitors. A few months ago, we would have used 
 a boxy conversion box like the one here: http://thepihut.com/products/hdmi-to-vga-converter-for-the-raspberry-pi. 
 However, a device called Piview was recently released by Element14, 
 one of the two authorized Raspberry Pi suppliers. It seems to 
 be a hit in the Twitterverse. More information about Piview is 
 available from Element14 at this URL: http://www.element14.com/community/docs/DOC-48883/l/pi-view-hdmi-to-vga-adapter-cable-for-raspberry-pi-computer-board. 
-It's available for order in the US from Newark.com: http://www.newark.com/element14/piview/cable-assembly-hdmi-to-vga-raspberry/dp/07W8937 
-(see QR code). 
+It's available for order in the US from Newark.com: http://www.newark.com/element14/piview/cable-assembly-hdmi-to-vga-raspberry/dp/07W8937. 
 
 And finally, if it comes to it, you can use any display device with 
 a phono/composite/RCA input. It's usually yellow and silver 
@@ -508,7 +483,7 @@ and found on older TV sets, VCRs, and cable boxes.
 Audio
 -----
 
-{draw:frame} If your display solution is an HDMI TV or monitor 
+If your display solution is an HDMI TV or monitor 
 with speakers, you're set since HDMI is apparently capable of 
 carrying audio. Otherwise, you'll need to use the stereo, 1/8" 
 audio output on the Raspberry Pi. 
@@ -521,7 +496,7 @@ other fork. A splitter fit for this purpose shouldn't be more
 than $2 but probably is nevertheless. Buying the parts for a DIY 
 cable solution will probably cost you more from Radio Shack. 
 
-{text:soft-page-break} Sharing Resource {draw:frame} s
+Sharing Resources
 ------------------------------------------------------
 
 If you have a perfectly good set of computer hardware, but it's 
@@ -564,7 +539,7 @@ $19 at both shops; today it's $12.95 with free shipping. Note
 that neither the Tenda nor the TP-Link listed are cataloged at 
 elinux as of this writing. 
 
-{text:bookmark} **6.** Preventative Maintenance: The Case for a Case
+Preventative Maintenance: The Case for a Case
 ====================================================================
 
 Sometimes computer hardware survives despite ridiculous odds. 
@@ -634,7 +609,7 @@ No, the Raspberry Pi in front of me as I write this is not in a case.
 Nevertheless I will be disproportionately pissed if grab it 
 wrong or sneeze on it. 
 
-{text:bookmark} **7.** Cases and Cases
+Cases and Cases
 ======================================
 
 Once you get your Raspberry Pi and fall in love with its diminutive 
@@ -650,17 +625,11 @@ motivate hackers, and drive innovation.
 
 DIY Solutions 
 
-Punnet Case 
+**Punnet Case** 
 
 A home printable card case. A very nice and simple case that be 
 easily downloaded and customized with any graphic. Needs: is 
 card stock, glue and a craft knife 
-
-{text:soft-page-break} {draw:frame} 
-
-{draw:frame} 
-
-Punnet MK1 
 
 **Raspberry Pi Fold-up Case** 
 
@@ -677,7 +646,7 @@ design, or use Lego Digital Designer and come up with your own
 creation. Needs: size specifications: **85.60mm x 53.98mm 
 x 17mm ****and Legos** 
 
-{text:soft-page-break} **3D Case** 
+**3D Case** 
 
 **Design your own 3D printable case. You can download a template 
 or design your own case. Needs: 3D printer** 
@@ -690,38 +659,35 @@ google Raspberry Pi case ideas and you will be amazed.**
 
 Cheap and Cool to Own 
 
-**There are over 35 cases for under $20.00. There's bound to be 
-one you like somewhere.** 
+There are over 35 cases for under $20.00. There's bound to be 
+one you like somewhere.
 
-Adafruit PiBox 
+**Adafruit PiBox** 
 
-**Simple and clear - $14.95.** 
+Simple and clear - $14.95.
 
-Adafruit Pibows 
+**Adafruit Pibows**
 
-**Fun to assemble and come in a variety of colors - $19.95.** 
+Fun to assemble and come in a variety of colors - $19.95.
 
-{draw:frame} Cyntech Raspberry Pi Colored Enclosure 
+**Cyntech Raspberry Pi Colored Enclosure**
 
 A raspberry color solid case - $12.50 
 
 **ModMy Pi Cases** 
 
-**Comes in a variety of colors and made of ABS plastic - $9.61. 
-If you do not care about the color, it is even cheaper - $4.79.** 
+Comes in a variety of colors and made of ABS plastic - $9.61. 
+If you do not care about the color, it is even cheaper - $4.79.
 
-Bramble Pi 
+**Bramble Pi** 
 
-**Laser cut finger jointed wooden case - $15.95.** 
+Laser cut finger jointed wooden case - $15.95.
 
 **Expensive but Cool Case** 
 
-* **Aluminum Raspberry Pi Case****: Protects and helps keep 
-  your Raspberry Pi cool - $69.95** 
+Aluminum Raspberry Pi Case: Protects and helps keep your Raspberry Pi cool - $69.95
 
-
-
-{text:bookmark} **8.** Preparation
+Preparation
 ==================================
 
 Unless you're and a fairly sophisticated home network engineer, 
@@ -740,8 +706,6 @@ here's the minimum needed to get started:
 * A PC with an SD compatible card reader, access to the internet, 
   and winzip or similar software 
 
-
-
 Ideally you'll also have the following: 
 
 * Cat 5 ethernet cable connected switch or hub or router capable 
@@ -752,8 +716,6 @@ Ideally you'll also have the following:
 * Compatible USB wireless network interface 
 
 * Powered USB hub 
-
-
 
 Write the Operating System to the SD Card
 -----------------------------------------
@@ -813,8 +775,6 @@ recognizes the card, you're ready to write the image to it. Click
 the "write" button and wait (wait time depends on the class/speed 
 of your card). 
 
-### Element14's Getting Started Guide
-
 One of the ways Raspberry Pi Foundation keeps costs down is by 
 shipping the devices completely in the nude; by now it's clear: 
 there's a potentially complex and powerful board with no instructions. 
@@ -824,24 +784,16 @@ that there's no declaration of copyright on this document: we
 hereby credit Element14 for the documentation and appreciate 
 that they've made it available to members. 
 
-{text:soft-page-break} {draw:frame} 
-
-{text:soft-page-break} Above is the first page of Element14's 
+Above is the first page of Element14's 
 "Getting Started with your Raspberry PI - Important Instructions. 
 It's almost certainly their 2012 intellectual property. 
 
-{text:soft-page-break} {draw:frame} 
-
-{text:soft-page-break} Above is the first page of Element14's 
+Above is the first page of Element14's 
 "Getting Started with your Raspberry PI - Important Instructions. 
 It's almost certainly their 2012 intellectual property. 
 
 Connections
 -----------
-
-{draw:frame} 
-
-_Raspberry Pi in pencil and colored pencil by Sabre Goldman_ 
 
 Element14 has already covered the next steps, but let's step 
 through them: 
@@ -862,8 +814,6 @@ through them:
 
 6. Plug in the power supply unit (PSU) and plug its micro-usb 
    connect into the Raspberry Pi. 
-
-
 
 A couple of preliminary notes to keep in mind. 
 
@@ -886,7 +836,7 @@ to the power supply.
 If the LEDs are blinking, a stream of information about the boot 
 process should be scrolling your display. 
 
-{text:bookmark} **9.** System Configuration
+System Configuration
 ===========================================
 
 The most recent version of Raspbian boots immediately to a utility 
@@ -894,7 +844,6 @@ called _raspi-config_. This utility is part of Raspbian's unique
 spin on Linux and makes getting started with the Raspberry Pi 
 much easier for people with little or no Linux experience. 
 
-{text:soft-page-break} {draw:frame} 
 
 Start by configuring your keyboard. It's tricky two we're two 
 countries seperated by a common language. Select configure_keyboard 
@@ -939,7 +888,7 @@ It would be really bad form to leave pi's password as _raspberry_.
 It can be changed here and now. The default password will be addressed 
 again later in the chapter called _User Administration._ 
 
-{text:soft-page-break} Memory_split: if you're a gamer or 
+Memory_split: if you're a gamer or 
 planning to do much in a windowed environment, set aside some 
 RAM for video processing: 256MB or less. Or so. I offer video just 
 enough memory that it can provide me a tolerable graphical user 
@@ -961,7 +910,7 @@ When you've finished with configurations, use tab to select
 _finish_ and press enter. If you changed the memory_split or 
 chose to overclock, your Raspberry Pi will reboot immediately. 
 
-{text:bookmark} **10.** Command Line and Graphical User Interfaces
+Command Line and Graphical User Interfaces
 ==================================================================
 
 This bit assumes that the graphical user interface, LXDE, has 
@@ -1002,7 +951,7 @@ similar human languages and that contrasts with disimilar human
 languages. And so it goes with human computer interfaces, whether 
 programming languages or command line interfaces. 
 
-{draw:frame} With Microsoft's _cmd _shell, there is no alternative. 
+With Microsoft's _cmd _shell, there is no alternative. 
 However, in Raspbian (and every other Linux distro), there are 
 different shell languages, or ways of communicating with the 
 computer from the command line, each with different purposes 
@@ -1025,7 +974,7 @@ reference for a command is its _manual _page, if it has one. We
 request the manual page from the prompt with the command man (it 
 gets better) followed by the command in question. So we'd enter: 
 
-man date 
+_man date_ 
 
 Navigate the man page by pressing the space bar or using the Page 
 Up and Page Down keys. If you're following along, you've noticed 
@@ -1055,8 +1004,6 @@ system thinks it's in?
 
 * date --help (the long, endorsed version of -h) 
 
-
-
 That's a devestatingly poor example, while you may be as baffled 
 now as you were before that exercise, take this away from the experience: 
 following a command with --help will almost always return more 
@@ -1074,13 +1021,8 @@ If you and the Raspberry Pi don't agree on the time zone, stop everything
 and return the chapter on raspi-config (sudo raspi-config if 
 you want to fix it now). 
 
-{text:soft-page-break} Graphic User Interfaces and Windows Environments
+Graphic User Interfaces and Windows Environments
 -----------------------------------------------------------------------
-
-{text:bookmark} {draw:frame} 
-
-{text:bookmark} _Raspbian's Default Desktop Environment, 
-LXDE (with LXTerminal open)_ 
 
 As with _cmd_ in Microsoft Windows, the user has no choice GUIs 
 in Windows: Microsoft's operating system is the GUI - both are 
@@ -1143,8 +1085,6 @@ The default credentials follow:
 
 * password: _raspberry_ 
 
-
-
 OK, it's a little secure: raspberry isn't easy to spell. For me, 
 for instance. 
 
@@ -1177,7 +1117,6 @@ At the prompt, type _passwd_ and press enter.
    exactly as you entered it the first time. 
 
 
-
 Now your username in pi and your password is your own. Not good 
 enough. 
 
@@ -1193,7 +1132,7 @@ Try adduser and press enter.
 That should fail. As a mild-mannered user, you don't have the 
 power to create accounts. Now try this: 
 
-sudo adduser some_name 
+_sudo adduser some_name_
 
 {text:soft-page-break} Replace some_name in the line above 
 with the one-word username that will delight you. It should be 
@@ -1211,7 +1150,7 @@ a moment to pause on reflect. Why is root privilege so precious?
 This command (theoretically) will wipe the entire system, including 
 every user's photos, manuscripts, emails, music, videos, software...everything: 
 
-rm -r / 
+_rm -r /_ 
 
 Back to the command line: As you see, adduser is interactive, 
 prompting the privileged user to enter information to be associated 
@@ -1226,7 +1165,8 @@ except for the one about the password: enter the password for
 your real account purposefully and mindfully; repeat it confirmation. 
 
 Use this interactive process to add another user if you like: 
-sudo adduser username 
+
+_sudo adduser username_
 
 Allow sudo with usermod
 -----------------------
@@ -1239,7 +1179,9 @@ powerful in some small way? You want that for your user account.
 A few tactics will give a user sudo access. We'll try this one (assuming 
 you followed instructions and are still logged in as pi): 
 
-sudo usermod -g sudo Substitute _username_ for the name of your 
+_sudo usermod -g sudo username_
+
+Substitute _username_ for the name of your 
 account (the one you made a moment ago. Do you need a rest? In a moment. 
 
 You'll be asked for your password; that's the system confirm 
