@@ -218,8 +218,7 @@ hardly notice your increasing mastery:
   is included both as an educational tool and as an essential 
   utility; 
 
-* Once the Raspberry Pi is interfacing with the material world 
-  - whether by sensing motion, humidity, temperature or by remotely 
+* Once the Raspberry Pi is interfacing with the material world, whether by sensing motion, humidity, temperature or by remotely 
   controlling home media, motors, or vehicles, you will be surprised 
   to find you're not only a programmer and systems administrator, 
   but also an electrical engineer. 
