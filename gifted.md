@@ -1232,9 +1232,11 @@ you have is deserved.
 ###Discovering the Raspberry Pi at First Boot
 
 Download and install Advance IP Scanner for Windows from [http://www.advanced-ip-scanner.com/](http://www.advanced-ip-scanner.com/). 
-I'm skeptical about this because it's freeware, which is a wholly 
+I was skeptical about this because it's freeware, which is a wholly 
 different thing from Free Software, the world you're stepping 
-into and, with luck, may be contributing to in the very near future. 
+into and, with luck, may be contributing to in the very near future. Turns out there is nothing to be skeptical about.
+
+![AdvancedIPScanner on Open](images/AdvancedIPScanner.png)
 
 The hardest thing about the installation is deciding whether 
 you want an icon on your desktop. 
@@ -1250,7 +1252,9 @@ on the network is serving SSH, it should work a charm given about
 Hopefully, next time you look things 
 will be much simpler than we anticipated. After a default scan, 
 the software lists each device on the network by hostname, IP 
-address, manufacturer of the network device, and MAC address. 
+address, manufacturer of the network device, and MAC address.
+
+![Raspberry Pi spotted with AdvancedIPScanner](images/finished scan.png) 
 
 The illustration makes clear that we needn't do a port scan to 
 discover an SSH server: the scanner found the MAC address and 
