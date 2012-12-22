@@ -1,7 +1,8 @@
-Raspberry Pi: A Guide for the Gifted
-------------------------------------
+#Raspberry Pi: A Guide for the Gifted#
 
-Nearly free to Share, Nearly Free to Remix 
+##Prefatory Matter
+
+###Nearly free to Share, Nearly Free to Remix 
 
 
 This work is licensed under a [Creative Commons 
@@ -9,9 +10,7 @@ Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommon
 
 Copyright 2012 by Rik Goldman and Sabre Goldman 
 
-Not so Cryptic 
-
-This is a QR code: 
+###Not so Cryptic 
 
 If you know about QR codes, move along to the next 
 bits. 
@@ -47,13 +46,12 @@ point your camera at a QR code; when it manages to get a lock on the
 code, it should process the information and deliver it in the 
 best way it's been taught. 
 
-Target Audience
-===============
+###Target Audience
 
 This book is intended for loved ones who have received Raspberry 
 Pis as gifts, expressed their appreciately kindly, and later 
-realized they have never been understood properly and this is 
-just another {text:soft-page-break} example, thank you. 
+though they have never been understood properly and this is 
+just another example, thank you. 
 
 It's intended for readers who browse and search the Web with some 
 degree of confidence, predominantly, with success. It's for 
@@ -71,8 +69,7 @@ ourselves and our readers that the $35 price point of the Raspberry
 Pi isn't ridiculously misleading. On the contrary, we find that 
 hacking is just a few dollars away for readers with home networks. 
 
-Work in Progress
-================
+###Work in Progress
 
 This work isn't finished. At the rate people are innovating with 
 and around this technology, it never will be. 
@@ -94,10 +91,8 @@ To do:
 * Appendix: Raspberry Pi Resources 
 
 
-
-It's the New Black
-=========================================
-
+##Preface
+###It's the New Black
 The Raspberry Pi is a credit-card sized, $35 computer produced 
 in the UK by a non-profit foundation committed to reforming computer 
 science and engineering for school-age children. 
@@ -111,9 +106,7 @@ anticipated a million sales by March 2013; in the first week of
 December 2012, a tweet from the Raspberry Foundation indicated 
 that 800,000 units had already been sold. 
 
-Compelling Reading, Too
-==============================================
-
+###Compelling Reading, Too
 Not only does the Raspberry Pi promote programming and engineering, 
 it also gets people to read. Two Raspberry Pi books have impressively 
 high Amazon rankings in the UK and the US. 
@@ -152,8 +145,7 @@ Scan the [bibliography](../additional-reading), "Additional
 Reading," in the appendices for more information about these 
 and other relevant titles. 
 
-Features
-===============================
+###Features
 
 The Raspberry Pi relies on processor technology (ARM11) more 
 akin to mobile devices than to PCs running Microsoft or Mac OSX 
@@ -173,8 +165,7 @@ array. This feature makes the Raspberry Pi a very flexible and
 programmable brain for home automation and robotics projects, 
 for example. 
 
-Looking Forward
-======================================
+###Looking Forward
 
 To give these features some material perspective, consider 
 the following Raspberry Pi use cases: 
@@ -233,8 +224,8 @@ hardly notice your increasing mastery:
   to find you're not only a programmer and systems administrator, 
   but also an electrical engineer. 
 
-Taking Stock
-===================================
+##Getting Started
+###Taking Stock
 
 The Raspberry Pi is flexible, versatile, and agile. Before first 
 use, it may be more ideal to complete personality test than to 
@@ -250,16 +241,13 @@ minimal requirements are met:
 * AC to DC power adaptor providing 5 volts at 1 amp through a micro-USB 
   adaptor ($3-5) 
 
-
-
 Only the first item of the list is simply addressed. After that, 
 everything's contingent. If you have PC, a local area network, 
 a spare LAN point or wireless Ethernet, and want to do this on the 
 cheap, see the section entitled [Remote Computing](../remote-computing) 
 below. 
 
-SD Card for Secondary Storage
------------------------------
+###SD Card for Secondary Storage
 
 Consider four factors when it comes to dealing with this absolute 
 requirement: 
@@ -270,8 +258,6 @@ requirement:
    speed); 
 
 3. documented track record with the Raspberry Pi. 
-
-
 
 2GB has probably never really been seriously attempted 
 because it's entirely impractical given the size of the operating 
@@ -319,8 +305,7 @@ SDHC cards. At home, we put the extra cash into speed over size
 every time: anything less than class 10 is intolerable to our 
 lifestyles. 
 
-SD Compatible Card Reader
--------------------------
+###SD Compatible Card Reader
 
 To get started, you'll need a card reader compatible with SD cards 
 connected to a PC or Mac with internet access. Without one, you 
@@ -337,8 +322,7 @@ to a computer's USB 2.0 ports are available quite cheaply for
 competitive shoppers (spotted for as low as $1.99 at a retailer; 
 solutions at Target were extraordinarily overpriced by comparison). 
 
-Power Supply Unit (PSU)
------------------------
+###Power Supply Unit (PSU)
 
 Like a full PC PSU, a Raspberry Pi PSU does two things: 
 
@@ -347,8 +331,6 @@ Like a full PC PSU, a Raspberry Pi PSU does two things:
    by batteries, for example); 
 
 2. it reduces voltage from 120 (in the US) to a much smaller number. 
-
-
 
 Early adopters very patiently worked out power supply compatibility 
 by trial and error. If the Twitterverse is to be trusted, an unstable 
@@ -365,8 +347,7 @@ for between $4 and $5 (without shipping).
 For a catalog of compatibility-confirmed PSUs, check in at the 
 elinux list of verified peripherals at [http://elinux.org/RPi_VerifiedPeripherals#Power_adapters](http://elinux.org/RPi_VerifiedPeripherals#Power_adapters). 
 
-Input Devices: Mouse and Keyboard
----------------------------------
+###Input Devices: Mouse and Keyboard
 
 This too is about lifestyle and personality. Here's an inventory 
 to help identify your needs; put one beside each true statement: 
@@ -423,8 +404,7 @@ Elinux hosts a catalog of compatible and incompatible keyboards
 at [http://elinux.org/RPi_VerifiedPeripherals#USB_Keyboards](http://elinux.org/RPi_VerifiedPeripherals#USB_Keyboards). 
 Mouse compatibility is cataloged here: [http://elinux.org/RPi_VerifiedPeripherals#USB_Mouse_devices](http://elinux.org/RPi_VerifiedPeripherals#USB_Mouse_devices). 
 
-Display Solutions
------------------
+###Display Solutions
 
 A temporary case solution is most people's first Raspberry Pi 
 hack. Our first hack was a display solution, since we didn't have 
@@ -480,8 +460,7 @@ And finally, if it comes to it, you can use any display device with
 a phono/composite/RCA input. It's usually yellow and silver 
 and found on older TV sets, VCRs, and cable boxes. 
 
-Audio
------
+###Audio Out
 
 If your display solution is an HDMI TV or monitor 
 with speakers, you're set since HDMI is apparently capable of 
@@ -496,8 +475,7 @@ other fork. A splitter fit for this purpose shouldn't be more
 than $2 but probably is nevertheless. Buying the parts for a DIY 
 cable solution will probably cost you more from Radio Shack. 
 
-Sharing Resources
-------------------------------------------------------
+###Sharing Resources
 
 If you have a perfectly good set of computer hardware, but it's 
 being put to good use for your > $400 PC, there's a frugal solution: 
@@ -510,8 +488,7 @@ and output to your monitor's requirements. If it's a VGA monitor,
 look into using Piview (discussed above) in conjunction with 
 a KVM switch. 
 
-Networking
-----------
+###Networking
 
 A powerful, versatile, fast, and compatible USB wifi adaptor 
 will be available to diligent shoppers for $15 or less. It's unnecessary. 
@@ -539,8 +516,7 @@ $19 at both shops; today it's $12.95 with free shipping. Note
 that neither the Tenda nor the TP-Link listed are cataloged at 
 elinux as of this writing. 
 
-Preventative Maintenance: The Case for a Case
-====================================================================
+###Preventative Maintenance: The Case for a Case
 
 Sometimes computer hardware survives despite ridiculous odds. 
 When equipment does survive, it's often because we invested 
@@ -582,8 +558,6 @@ the Raspberry Pi:
 
 * physical trauma, physical pressure, vibration 
 
-
-
 It takes a shock with an imperceptable fraction of the power you 
 feel when someone with socked feet charges up on the carpet and 
 touches you to ruin a microchip like those on the Raspberry Pi. 
@@ -609,8 +583,7 @@ No, the Raspberry Pi in front of me as I write this is not in a case.
 Nevertheless I will be disproportionately pissed if grab it 
 wrong or sneeze on it. 
 
-Cases and Cases
-======================================
+###Cases and Cases
 
 Once you get your Raspberry Pi and fall in love with its diminutive 
 size, you will to keep it forever. Luckily, there exists dozens 
@@ -623,72 +596,70 @@ keep costs down is made very deliberately: by shipping the device
 in the nude, the Raspberry Pi Foundation intends to provoke curiousity, 
 motivate hackers, and drive innovation. 
 
-DIY Solutions 
+####DIY Solutions 
 
-**Punnet Case** 
+Punnet Case
 
-A home printable card case. A very nice and simple case that be 
+>A home printable card case. A very nice and simple case that be 
 easily downloaded and customized with any graphic. Needs: is 
 card stock, glue and a craft knife 
 
-**Raspberry Pi Fold-up Case** 
+Raspberry Pi Fold-up Case
 
-A home printable clear case. A simple case that protects whole 
+>A home printable clear case. A simple case that protects whole 
 allowing you to view the splendor of your Raspberry Pi with down 
 loadable and easy to follow instructions. Needs: thick acetate 
 paper and a craft knife 
 
-**Lego Case** 
+Lego Case
 
-The possibilities are endless. A case that can take on any life 
+>The possibilities are endless. A case that can take on any life 
 form you want. You can download specifications of another person's 
 design, or use Lego Digital Designer and come up with your own 
 creation. Needs: size specifications: **85.60mm x 53.98mm 
 x 17mm ****and Legos** 
 
-**3D Case** 
+3D Case 
 
-**Design your own 3D printable case. You can download a template 
-or design your own case. Needs: 3D printer** 
+>Design your own 3D printable case. You can download a template 
+or design your own case. Needs: 3D printer
 
-**Who-Knows? Case** 
+Who-Knows? Case
 
-**With a Mounting Hole Template from Raspberry Pi Spy you can 
+>With a Mounting Hole Template from Raspberry Pi Spy you can 
 create a Raspberry Pi case out of just about anything. Need inspiration, 
-google Raspberry Pi case ideas and you will be amazed.** 
+google Raspberry Pi case ideas and you will be amazed.
 
 Cheap and Cool to Own 
 
 There are over 35 cases for under $20.00. There's bound to be 
 one you like somewhere.
 
-**Adafruit PiBox** 
+Adafruit PiBox
 
-Simple and clear - $14.95.
+>Simple and clear - $14.95.
 
-**Adafruit Pibows**
+Adafruit Pibows
 
-Fun to assemble and come in a variety of colors - $19.95.
+>Fun to assemble and come in a variety of colors - $19.95.
 
-**Cyntech Raspberry Pi Colored Enclosure**
+Cyntech Raspberry Pi Colored Enclosure
 
-A raspberry color solid case - $12.50 
+>A raspberry color solid case - $12.50 
 
-**ModMy Pi Cases** 
+ModMy Pi Cases
 
-Comes in a variety of colors and made of ABS plastic - $9.61. 
-If you do not care about the color, it is even cheaper - $4.79.
+>Comes in a variety of colors and made of ABS plastic - $9.61. If you do not care about the color, it is even cheaper - $4.79.
 
-**Bramble Pi** 
+Bramble Pi
 
-Laser cut finger jointed wooden case - $15.95.
+>Laser cut finger jointed wooden case - $15.95.
 
-**Expensive but Cool Case** 
+Expensive but Cool Case
 
-Aluminum Raspberry Pi Case: Protects and helps keep your Raspberry Pi cool - $69.95
+>Aluminum Raspberry Pi Case: Protects and helps keep your Raspberry Pi cool - $69.95
 
-Preparation
-==================================
+###Preparation
 
 Unless you're and a fairly sophisticated home network engineer, 
 here's the minimum needed to get started: 
@@ -717,8 +688,7 @@ Ideally you'll also have the following:
 
 * Powered USB hub 
 
-Write the Operating System to the SD Card
------------------------------------------
+###Write the Operating System to the SD Card
 
 To create the imaged SD card, you'll need to start from a PC or Mac 
 that has internet connectivity and an SD card reader. 
@@ -784,16 +754,9 @@ that there's no declaration of copyright on this document: we
 hereby credit Element14 for the documentation and appreciate 
 that they've made it available to members. 
 
-Above is the first page of Element14's 
-"Getting Started with your Raspberry PI - Important Instructions. 
-It's almost certainly their 2012 intellectual property. 
 
-Above is the first page of Element14's 
-"Getting Started with your Raspberry PI - Important Instructions. 
-It's almost certainly their 2012 intellectual property. 
 
-Connections
------------
+###Connections
 
 Element14 has already covered the next steps, but let's step 
 through them: 
@@ -836,14 +799,12 @@ to the power supply.
 If the LEDs are blinking, a stream of information about the boot 
 process should be scrolling your display. 
 
-System Configuration
-===========================================
+###System Configuration###
 
 The most recent version of Raspbian boots immediately to a utility 
 called _raspi-config_. This utility is part of Raspbian's unique 
 spin on Linux and makes getting started with the Raspberry Pi 
 much easier for people with little or no Linux experience. 
-
 
 Start by configuring your keyboard. It's tricky two we're two 
 countries seperated by a common language. Select configure_keyboard 
@@ -910,8 +871,7 @@ When you've finished with configurations, use tab to select
 _finish_ and press enter. If you changed the memory_split or 
 chose to overclock, your Raspberry Pi will reboot immediately. 
 
-Command Line and Graphical User Interfaces
-==================================================================
+##Command Line and Graphical User Interfaces
 
 This bit assumes that the graphical user interface, LXDE, has 
 been started - whether automatically or with the startx command. 
@@ -920,8 +880,7 @@ The mouse was invented; moments later a justification for the
 mouse was needed. That is when the graphical user interface, 
 or GUI, emerged. 
 
-The Command Line Interface and the Shell
-----------------------------------------
+###The Command Line Interface and the Shell
 
 Operating systems, whether Android, Microsoft, Apple, or Linux, 
 share 5 fundamental functions. One of them is providing an interface 
@@ -966,7 +925,7 @@ more powerful than we've taken for granted here. What matters
 in the next few sentences in that you learn the ins and outs of dating, 
 but rather the strategies by which we learn about it. 
 
-### Asking the System for Help
+###Asking the System for Help
 
 A majority of Linux commands - especially the most established 
 and traditional - offer help in at least 3 ways. The most thorough 
@@ -997,7 +956,7 @@ we develop alternatives. Try each and see which works best for
 you. Here's the question: how do I find out just the timezone the 
 system thinks it's in? 
 
-* apropos -e date (surveys man pages for an exact match) 
+* apropos -e date (surveys documentation for an exact match) 
 
 * date -h (invalid option in this case; this is a short version 
   of the command line that follows) 
@@ -1021,8 +980,7 @@ If you and the Raspberry Pi don't agree on the time zone, stop everything
 and return the chapter on raspi-config (sudo raspi-config if 
 you want to fix it now). 
 
-Graphic User Interfaces and Windows Environments
------------------------------------------------------------------------
+###Graphic User Interfaces and Windows Environments
 
 As with _cmd_ in Microsoft Windows, the user has no choice GUIs 
 in Windows: Microsoft's operating system is the GUI - both are 
@@ -1047,13 +1005,9 @@ a learning curve. Later we'll take a moment to explore what's
 involved with switching windows managers. {text:bookmark} 
 [2](#command-line-and-graphical-user-interfaces_InsertNoteID_2) 
 
-1. {text:bookmark} {text:bookmark} Whatever the windowed 
-   desktop, your Linux GUI is almost definitely relying on the 
-   X windows system. {text:bookmark} [^](#command-line-and-graphical-user-interfaces_InsertNoteID_1_marker1) 
-
-2. {text:bookmark} Two very differently successful books 
-   are especially relevant to this chapter: 1) Kiddle, Oliver, 
-   Jerry D. Peck, and Peter Stephenson. From Bash to Z Shell: 
+1. Whatever the windowed desktop, your Linux GUI is almost definitely relying on the 
+   X windows system.
+2. Two very differently successful books are especially relevant to this chapter: 1) Kiddle, Oliver, Jerry D. Peck, and Peter Stephenson. From Bash to Z Shell: 
    Conquering the Command Line. Berkeley, CA: Apress, 2005. 
    Print. (A guide to getting around the command line with a variety 
    of shells.) 2) Stephenson, Neal. In the Beginning ...was 
@@ -1064,16 +1018,14 @@ involved with switching windows managers. {text:bookmark}
 
 
 
-{text:bookmark}  {text:soft-page-break} **11.** User Administration
-===================================================================
+##User Administration
 
 Unlike most operating systems, Raspbian comes with a user account 
 enabled and protected by a default password. This was a tactical 
 decision that surely took into account that it's a significant 
 security threat. Let's take care of that. 
 
-Logging In
-----------
+###Logging In
 
 The first time Rapbian boots, it launches directly into raspi-config 
 and then prompts the user patiently for input. That won't happen 
@@ -1120,8 +1072,7 @@ At the prompt, type _passwd_ and press enter.
 Now your username in pi and your password is your own. Not good 
 enough. 
 
-Add a User to the System
-------------------------
+###Add a User to the System
 
 Create an account for yourself. Two methods work for this and 
 they are easily confused. To create a user with interactive prompting, 
@@ -1134,7 +1085,7 @@ power to create accounts. Now try this:
 
 _sudo adduser some_name_
 
-{text:soft-page-break} Replace some_name in the line above 
+Replace some_name in the line above 
 with the one-word username that will delight you. It should be 
 one word and should probably not include symbols. There no such 
 thing as simply "changing" a username you've become disenchanted 
@@ -1168,8 +1119,7 @@ Use this interactive process to add another user if you like:
 
 _sudo adduser username_
 
-Allow sudo with usermod
------------------------
+###Allow sudo with usermod
 
 Don't take your username to prom yet, though. Remember back when 
 you liked the username pi, and got comfortable with it? Well, 
@@ -1196,7 +1146,7 @@ I am root, and I want to make a member of the priveleged class of
 superusers. In a subsequent chapter, we'll make users in bulk 
 with a script. 
 
-A Peak Under the Hood 
+###A Peak Under the Hood 
 
 Let's conclude by exploring user and password information by 
 looking at two files: /etc/passwd and /etc/shadow. 
@@ -1214,13 +1164,11 @@ lxterminal as described above.
 
 At the prompt, enter the following: 
 
-sudo tail /etc/password 
+_sudo tail /etc/password_
 
 You should see ten lines of account information. Here's what 
 the line says: recognize that I am really powerful; with that 
-power, show me the last ten lines {text:bookmark} [1](#user-administration_InsertNoteID_1) 
-of the file called _passwd _in the folder called _etc_ (users 
-accustomed to Microsoft or Macintosh know folders; they were 
+power, show me the last ten lines {text:bookmark} [1](#user-administration_InsertNoteID_1) of the file called _passwd _in the folder called _etc_ (users accustomed to Microsoft or Macintosh know folders; they were 
 once known to those systems as _directories_. In Linux, they 
 still are. Each line should contain a sequence of information 
 seperated by colons. Among that information is the username, 
@@ -1231,7 +1179,7 @@ assigned to the user's account: pi is using the bash shell, the
 most popular and available shell in Linux distros. You two, are 
 using bash: it's the default shell. 
 
-{text:bookmark} So the name of the file is misleading: there 
+So the name of the file is misleading: there 
 is no password information here. Your password is not sitting 
 in a plaintext file in plain site. Or is it? 
 
@@ -1248,21 +1196,18 @@ Later, we'll pit your password against jacktheripper, a brute
 force hacking tool to whether or not whatever sense of security 
 you have is deserved. 
 
-1. {text:bookmark} {text:bookmark} sudo tail -100 /etc/passwd 
-   would show the final 100 lines of the file passwd in the directory 
-   called etc. By default, tail shows the final 10 lines. A similar 
+1. sudo tail -100 /etc/passwd would show the final 100 lines of the file passwd in the directory called etc. By default, tail shows the final 10 lines. A similar 
    utility is called head: sudo head /etc/passwd shows (by default) 
    the first 10 lines of the file. Maybe you'd like to see the whole 
    file? To display a file, use the cat command: sudo cat /etc/passwd. 
-   {text:bookmark} [^](#user-administration_InsertNoteID_1_marker1) 
+[^](#user-administration_InsertNoteID_1_marker1) 
 
 
 
-{text:bookmark} **12.** Remote Computing
-========================================
+##Remote Computing
 
-Discovering the Raspberry Pi at First Boot
-------------------------------------------
+
+###Discovering the Raspberry Pi at First Boot
 
 Download and install Advance IP Scanner for Windows from [http://www.advanced-ip-scanner.com/](http://www.advanced-ip-scanner.com/). 
 I'm skeptical about this because it's freeware, which is a wholly 
@@ -1280,7 +1225,7 @@ area network to identify a computer running an SSH server on port
 on the network is serving SSH, it should work a charm given about 
 5 minutes to look around. 
 
-{text:soft-page-break} Hopefully, next time you look things 
+Hopefully, next time you look things 
 will be much simpler than we anticipated. After a default scan, 
 the software lists each device on the network by hostname, IP 
 address, manufacturer of the network device, and MAC address. 
@@ -1293,16 +1238,13 @@ Raspbian is configured to receive an assigned address dynamically,
 you can be sure that this address will change. Maybe not today; 
 maybe not tomorrow, but someday and then... 
 
-Connecting via SSH Client
--------------------------
+###Connecting via SSH Client
 
 To connect to the Raspberry Pi via SSH from Windows, you'll need 
 to download a client. One highly regarded client is PuTTy, avaiiable 
 hassle free from [http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html). 
 Look for the link to PuTTy.exe, download, and install. When the 
 installation is complete, launch PuTTy. 
-
-{draw:frame} 
 
 Enter the IP address of the Raspberry Pi in the Hostname (or IP 
 address) field. If you prefer to not enter it every time you want 
@@ -1333,21 +1275,21 @@ patient. {text:bookmark} [1](#remote-computing_InsertNoteID_1)
 
 Then install one, the other, or both: 
 
-sudo apt-get install xrdp #installs xrdp 
+_sudo apt-get install xrdp #installs xrdp_
 
-sudo apt-get install tightvnc #installs vnc server 
+_sudo apt-get install tightvnc #installs vnc server_
 
-sudo apt-get install tightvnc xrdp #installs both 
+_sudo apt-get install tightvnc xrdp #installs both_ 
 
 ### Running the configuration tool remotely
 
-{draw:frame} Now that that's taken care of, it's time to configure 
+Now that that's taken care of, it's time to configure 
 the Raspbian with it's unique tool, raspi-config. Raspi-config 
 automatically launches on first boot and appears on the display. 
 Since we've accessed via remote terminal, we can't see that. 
 So we run raspi-config manually: 
 
-sudo raspi-config 
+_sudo raspi-config_
 
 Set the keyboard configuration first, then locale (use the space 
 bar to put an asterisk beside US-eng-UTF8 in the States; In the 
@@ -1362,10 +1304,9 @@ want to cripple a working system.
 You must change the user _pi's_ password, but wait to use that 
 to learn [user administration](../user-administration). 
 
-Macgyver Style
---------------
+###"Macgyver" Style
 
-{draw:frame} It's been proven that the Raspberry Pi can draw 
+It's been proven that the Raspberry Pi can draw 
 power from a PCs powered USB port. Raspberry Pi Foundation has 
 chosen to discourage this method, insisting that the pi could 
 burn up, act inconsistently, or just not work. Nevertheless 
@@ -1387,11 +1328,9 @@ that it worked without hitch, I set it on a back burner.
 
 
 
-{text:bookmark} **13.** Projects
-================================
+##Projects
 
-Access Your Pi from your Phone and Your Homes away from Home
-------------------------------------------------------------
+###Access Your Pi from your Phone and Your Homes away from Home
 
 Configure NAT or port forwarding to allow secure access to your 
 Raspberry Pi from outside your home by PC, by smart phone, etc. 
@@ -1403,7 +1342,7 @@ To do this, you
 * should next instruct your router to forward incoming requests 
   on port 22 to the Raspberry Pi's address (look up your router 
   at [http://portforward.com/](http://portforward.com/) 
-  for suppor; 
+  for support; 
 
 * must confirm that both accounts, your account and pi's account, 
   have strong passwords: test potential passwords here: [http://www.microsoft.com/en-gb/security/pc-security/password-checker.aspx](http://www.microsoft.com/en-gb/security/pc-security/password-checker.aspx) 
@@ -1413,12 +1352,9 @@ To do this, you
   you. You can generate a password on the web or from the command 
   line. See [http://www.newpasswordgenerator.com](http://www.newpasswordgenerator.com/). 
 
+###First Person Shooting Gallery
 
-
-First Person Shooting Gallery
------------------------------
-
-{draw:frame} id Software are good folks: they opened the source 
+id Software are good folks: they opened the source 
 to their game engines. While the game data is still protected 
 by copyright, demo game data is available. People have worked 
 hard to make id Software's signature games run on Raspberry Pi; 
@@ -1430,17 +1366,13 @@ from the web with the command line. Shea Silverman's blog has
 tutorials for these and other gaming challenges. See Shea Silverman's 
 page at http://blog.sheasilverman.com/raspberry-pi-emulation/. 
 
-Build an FM Transmitter
------------------------
+###Build an FM Transmitter
 
 Who'd have thought all it would take is a single wire to turn a Raspberry 
 Pi into an FM transmitter? That's what the Imperial College Robotics 
 Society discovered. Here's video and some code: 
 
-{draw:frame} 
-
-Experiment with Desktop Environments
-------------------------------------
+###Experiment with Desktop Environments
 
 * Install and explore a viable and capable alternative to LXDE: 
   the very popular XFCE. Like LXDE, it is svelte and maintains 
@@ -1448,12 +1380,9 @@ Experiment with Desktop Environments
 
 * Research, install, and explore Awesome. 
 
+###Weather Station
 
-
-Weather Station
----------------
-
-{draw:frame} One use for the GPIO pin array on the Raspberry Pi 
+One use for the GPIO pin array on the Raspberry Pi 
 is to interface with its environment via sensors. Depending 
 on how capable an electrician you are, you can put together a capable 
 whether station for between $10 and $20 dollars. [https://github.com/ghoulmann/rpi-thermometer](https://github.com/ghoulmann/rpi-thermometer) 
@@ -1464,8 +1393,7 @@ as a web page. This isn't the most frugal choice of hardware: it's
 a USB solution that requires no assembly. With a few alterations, 
 the code will work with more DIY-principled hardware choices. 
 
-{text:bookmark} **14.** Of Mohawk Guy and Raspberry Pi
-======================================================
+##Of Mohawk Guy and Raspberry Pi
 
 by Rik Goldman (available at [http://www.raspberrypi.org/archives/2715](http://www.raspberrypi.org/archives/2715)) 
 
@@ -1488,9 +1416,7 @@ by dawn, according to Judkis, Ferdowski was an "insta-celebrity"
 followers; morover, by dawn a tumblr blog emerged with a curated 
 collection of Ferdowski tributes - significantly dedicated 
 as much to his good looks as his accomplishments as the Rover's 
-Mission Controller. {text:bookmark} [2](#of-mohawk-guy-and-raspberry-pi_InsertNoteID_1) 
-
-{draw:frame} 
+Mission Controller.[2](#of-mohawk-guy-and-raspberry-pi_InsertNoteID_1) 
 
 _YouTube NASA _[_footage_](http://youtu.be/S32p02ckfwA)_ 
 with Mohawk Guy goes viral_ 
@@ -1498,7 +1424,7 @@ with Mohawk Guy goes viral_
 CNN made clear on 15 August that Mohawk Guy wasn't merely a social 
 media sensation: With the title "Mars rover mission's 'Mohawk 
 Guy' inspires Obama," writer Elizabeth Landau recounts Obama's 
-own nod to Ferdowski: {text:bookmark} [2](#of-mohawk-guy-and-raspberry-pi_InsertNoteID_2) 
+own nod to Ferdowski:[2](#of-mohawk-guy-and-raspberry-pi_InsertNoteID_2) 
 
 > "Mohawk Guy," a Mars rover flight director, isn't just a social 
 > media sensation -- he made an impression on President Barack 
@@ -1514,13 +1440,13 @@ own nod to Ferdowski: {text:bookmark} [2](#of-mohawk-guy-and-raspberry-pi_Insert
 > team and see if it makes sense," he said to the sound of laughter 
 > from dozens of NASA employees. 
 
-{text:bookmark} Judkis's blog post was followed by another 
+Judkis's blog post was followed by another 
 _Washington Post_ publication that helped get at the tacit kernel 
 of Mohawk Guy's popularity: If the title of the post, "Bobak Ferdowsi, 
 aka 'Mohawk Guy' and STEM education's new dream come true" doesn't 
 drive it home, a single, terse paragraph further down the 7 August 
-article really does - "He makes science cool." {text:bookmark} 
-{text:bookmark} [3](#of-mohawk-guy-and-raspberry-pi_InsertNoteID_3) 
+article really does - "He makes science cool."
+[3](#of-mohawk-guy-and-raspberry-pi_InsertNoteID_3) 
 
 Ours is a small, nonpublic, secondary school serving urban, 
 secondary-school students; perhaps it isn't representative. 
@@ -1557,13 +1483,6 @@ markedly different, and I have to credit this difference for
 some of the enthusiasm: we had two Raspberry Pis at the table as 
 manipulatives; along with the "Raspis" was an open box with every 
 surface covered in visual information about the Raspberry Pi. 
-
-{draw:frame} 
-
-{draw:frame} 
-
-_Chelsea School students and their Raspberry Pis (photos by 
-Rik Goldman)_ 
 
 If you're just hearing about the Raspberry Pi, don't be concerned. 
 It's a computing techology that saw it's first public release 
@@ -1640,8 +1559,6 @@ is immediate and grows daily:
    with scratch and has begun converting a tabletop game to a 
    computer game with Python. 
 
-
-
 Still to come: temperature logging and graphing; creating a 
 Raspberry Pi SDK (software development kit); contributing 
 code with educational or humanitarian goals to the open-source 
@@ -1661,30 +1578,29 @@ that very compelling; and at a $35 price point, I find it appealing
 not only in my role as a teacher, but also as a citizen committed 
 to economic and social justice. 
 
-1. {text:bookmark} {text:bookmark} Judkis, Maura. "NASA's 
+1. Judkis, Maura. "NASA's 
    'Mohawk Guy': 5 reasons the Internet is obsessed with him." 
    Washington Post. Washington Post, 06 2012. Web. 4 Dec 2012. 
    [http://www.washingtonpost.com/blogs/arts-post/post/nasas-mohawk-guy-5-reasons-the-internet-is-obsessed-with-him/2012/08/06/960f62da-dff5-11e1-a421-8bf0f0e5aa11_blog.html](http://www.washingtonpost.com/blogs/arts-post/post/nasas-mohawk-guy-5-reasons-the-internet-is-obsessed-with-him/2012/08/06/960f62da-dff5-11e1-a421-8bf0f0e5aa11_blog.html). 
-   {text:bookmark} [^](http://www.booki.cc/raspberry-pi-a-guide-for-the-gifted/_edit/#InsertNoteID_1_marker1) 
+   [^](http://www.booki.cc/raspberry-pi-a-guide-for-the-gifted/_edit/#InsertNoteID_1_marker1) 
 
-2. {text:bookmark} Landau, Elizabeth. "Mars rover mission's 
+2. Landau, Elizabeth. "Mars rover mission's 
    'Mohawk Guy' inspires Obama." CNN. CNN, 15 2012. Web. 4 Dec 
    2012. [http://www.cnn.com/2012/08/13/us/mars-rover-curiosity-obama/index.html](http://www.cnn.com/2012/08/13/us/mars-rover-curiosity-obama/index.html). 
-   {text:bookmark} [^](#of-mohawk-guy-and-raspberry-pi_InsertNoteID_2_marker2) 
+   [^](#of-mohawk-guy-and-raspberry-pi_InsertNoteID_2_marker2) 
 
-3. {text:bookmark} Kolawole, Emi. "Bobak Ferdowsi, aka 'Mohawk 
+3. Kolawole, Emi. "Bobak Ferdowsi, aka 'Mohawk 
    Guy' and STEM education's new dream come true." Washington 
    Post. Washington Post, 08 2012. Web. 4 Dec 2012. {text:bookmark} 
    [^](#of-mohawk-guy-and-raspberry-pi_InsertNoteID_2_marker3) 
 
-4. {text:bookmark} Wikipedia contributors. "Raspberry Pi." 
+4. Wikipedia contributors. "Raspberry Pi." 
    Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 
    3 Dec. 2012. Web. 4 Dec. 2012. {text:bookmark} [^](#of-mohawk-guy-and-raspberry-pi_InsertNoteID_4_marker6) 
 
 
 
-{text:bookmark} **15.** Additional Reading
-==========================================
+###Additional Reading
 
 1337 h4x0r h4ndb00k. Indianapolis, Ind.: Sams, 2005. Print. 
 
