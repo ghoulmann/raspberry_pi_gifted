@@ -1,4 +1,4 @@
-![Color Cover](images/"guide for gifted_1.jpg")
+![Color Cover](images/guide for gifted_1.jpg)
 #Raspberry Pi: A Guide for the Gifted#
 ##Contents
 ###Prefatory Matter
