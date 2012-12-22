@@ -1353,7 +1353,7 @@ that it worked without hitch, I set it on a back burner.
    is commentary. {text:bookmark} [^](#remote-computing_InsertNoteID_1_marker1) 
 
 
-##Appenices
+##Appendices
 ###Projects
 
 ####Access Your Pi from your Phone and Your Homes away from Home
