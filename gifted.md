@@ -169,6 +169,7 @@ and other relevant titles.
 ###Features
 
 <center>![Raspi in Colored Pencil](images/coloring_pi_sabre_cropped.jpg)</center>
+
 The Raspberry Pi relies on processor technology (ARM11) more 
 akin to mobile devices than to PCs running Microsoft or Mac OSX 
 familiar to many. To put this into perspective, expect a computer 
