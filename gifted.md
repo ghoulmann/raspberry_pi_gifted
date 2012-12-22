@@ -1,7 +1,7 @@
 ![Color Cover](images/guide for gifted_1.jpg)
 #Raspberry Pi: A Guide for the Gifted#
 ##Contents
-###Prefatory Matter
+###[Prefatory Matter](#prefatory_matter)
 1. License and Copyright
 2. Not so Cryptic (for the print edition)
 3. Target Audience
