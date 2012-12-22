@@ -1411,13 +1411,23 @@ the course of years of education formal and informal.
 It wasn't just me: by 4 pm on the afternoon of the landing, Maura 
 Judkis revealed in a _Washington Post_ blog post the extent of 
 Mohawk Guy's - nee Bobak Ferdowski's - grip on our attention spans: 
+<<<<<<< HEAD
 by dawn, according to Judkis, Ferdowski was an "insta-celebrity. In just a few short hours, Ferdowski accumulated 10,000 twitter 
+=======
+by dawn, according to Judkis, Ferdowski was an "insta-celebrity" 
+- in just a few short hours, Ferdowski accumulated 10,000 twitter 
+>>>>>>> 5a9690eb90164dbde36dea84fa2b48887fc46e60
 followers; morover, by dawn a tumblr blog emerged with a curated 
 collection of Ferdowski tributes - significantly dedicated 
 as much to his good looks as his accomplishments as the Rover's 
 Mission Controller.[2](#of-mohawk-guy-and-raspberry-pi_InsertNoteID_1) 
 
+<<<<<<< HEAD
 YouTube NASA [footage](http://youtu.be/S32p02ckfwA) with Mohawk Guy goes viral.
+=======
+_YouTube NASA _[_footage_](http://youtu.be/S32p02ckfwA)_ 
+with Mohawk Guy goes viral_ 
+>>>>>>> 5a9690eb90164dbde36dea84fa2b48887fc46e60
 
 CNN made clear on 15 August that Mohawk Guy wasn't merely a social 
 media sensation: With the title "Mars rover mission's 'Mohawk 
