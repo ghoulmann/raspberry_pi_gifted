@@ -320,7 +320,9 @@ lifestyle:
 Checking hardware for Raspberry Pi compatibility 
 is best practice, whether you're shopping for a wireless adaptor 
 or for an SD card. To check for SD-card compatibility, see elinux's 
-section on the subject: [http://elinux.org/RPi_VerifiedPeripherals#SD_cards](http://elinux.org/RPi_VerifiedPeripherals#SD_cards). 
+section on the subject: [http://elinux.org/RPi_VerifiedPeripherals#SD_cards](http://elinux.org/RPi_VerifiedPeripherals#SD_cards).
+
+![elinux verified SD cards](images/elinux_sdhc.png) 
 
 Where we teach, the Raspberry Pis are stocked with class 6, 8GB 
 SDHC cards. At home, we put the extra cash into speed over size 
@@ -775,8 +777,6 @@ terse getting started guide. It's included here in full. Note
 that there's no declaration of copyright on this document: we 
 hereby credit Element14 for the documentation and appreciate 
 that they've made it available to members. 
-
-
 
 ###Connections
 
@@ -1307,7 +1307,7 @@ _sudo apt-get install tightvnc #installs vnc server_
 
 _sudo apt-get install tightvnc xrdp #installs both_ 
 
-### Running the configuration tool remotely
+### Running the Configuration Tool Remotely
 
 Now that that's taken care of, it's time to configure 
 the Raspbian with it's unique tool, raspi-config. Raspi-config 
