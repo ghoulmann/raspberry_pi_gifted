@@ -45,7 +45,7 @@ to our school age-childen.
 
 With a QR code, I can convey a set of instructions, supplemental 
 materials, bits of code - some extraordinary amounts of information 
-in less than 100 square pixels. The code to the left is intended 
+in less than 100 square pixels. The code on this page is intended 
 to provide some insight into the design decisions that had to 
 be made to create and deliver the Raspberry Pi. It's a video introduction 
 from Cambridge given by Eben Upton, Raspberry Pi's lead developer. 
@@ -168,7 +168,7 @@ and other relevant titles.
 
 ###Features
 
-<center>![Raspi in Colored Pencil](images/coloring_pi_sabre_cropped.jpg)</center>
+<center>![Raspi in Colored Pencil](images/coloring_pi_sabre-cropped.jpg)</center>
 
 The Raspberry Pi relies on processor technology (ARM11) more 
 akin to mobile devices than to PCs running Microsoft or Mac OSX 
