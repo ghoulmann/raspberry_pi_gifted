@@ -1353,10 +1353,10 @@ that it worked without hitch, I set it on a back burner.
    is commentary. {text:bookmark} [^](#remote-computing_InsertNoteID_1_marker1) 
 
 
+##Appenices
+###Projects
 
-##Projects
-
-###Access Your Pi from your Phone and Your Homes away from Home
+####Access Your Pi from your Phone and Your Homes away from Home
 
 Configure NAT or port forwarding to allow secure access to your 
 Raspberry Pi from outside your home by PC, by smart phone, etc. 
@@ -1378,7 +1378,7 @@ To do this, you
   you. You can generate a password on the web or from the command 
   line. See [http://www.newpasswordgenerator.com](http://www.newpasswordgenerator.com/). 
 
-###First Person Shooting Gallery
+####First Person Shooting Gallery
 
 id Software are good folks: they opened the source 
 to their game engines. While the game data is still protected 
@@ -1392,13 +1392,13 @@ from the web with the command line. Shea Silverman's blog has
 tutorials for these and other gaming challenges. See Shea Silverman's 
 page at http://blog.sheasilverman.com/raspberry-pi-emulation/. 
 
-###Build an FM Transmitter
+####Build an FM Transmitter
 
 Who'd have thought all it would take is a single wire to turn a Raspberry 
 Pi into an FM transmitter? That's what the Imperial College Robotics 
 Society discovered. Here's video and some code: 
 
-###Experiment with Desktop Environments
+####Experiment with Desktop Environments
 
 * Install and explore a viable and capable alternative to LXDE: 
   the very popular XFCE. Like LXDE, it is svelte and maintains 
@@ -1406,7 +1406,7 @@ Society discovered. Here's video and some code:
 
 * Research, install, and explore Awesome. 
 
-###Weather Station
+####Weather Station
 
 One use for the GPIO pin array on the Raspberry Pi 
 is to interface with its environment via sensors. Depending 
@@ -1419,7 +1419,7 @@ as a web page. This isn't the most frugal choice of hardware: it's
 a USB solution that requires no assembly. With a few alterations, 
 the code will work with more DIY-principled hardware choices. 
 
-##Of Mohawk Guy and Raspberry Pi
+###Of Mohawk Guy and Raspberry Pi
 
 by Rik Goldman (available at [http://www.raspberrypi.org/archives/2715](http://www.raspberrypi.org/archives/2715)) 
 
