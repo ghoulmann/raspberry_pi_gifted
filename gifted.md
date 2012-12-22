@@ -168,6 +168,7 @@ and other relevant titles.
 
 ###Features
 
+<center>![Raspi in Colored Pencil](images/coloring_pi_sabre_cropped.jpg)</center>
 The Raspberry Pi relies on processor technology (ARM11) more 
 akin to mobile devices than to PCs running Microsoft or Mac OSX 
 familiar to many. To put this into perspective, expect a computer 
@@ -184,7 +185,7 @@ a powered USB 2.0 hub. Many of the most innovative Raspberry Pi
 projects take advantage of another board feature: a GPIO pin 
 array. This feature makes the Raspberry Pi a very flexible and 
 programmable brain for home automation and robotics projects, 
-for example. 
+for example.
 
 ###Looking Forward
 
