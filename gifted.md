@@ -1,4 +1,24 @@
 #Raspberry Pi: A Guide for the Gifted#
+##Contents
+###Prefatory Matter
+1. License and Copyright
+2. Not so Cryptic (for the print edition)
+3. Target Audience
+4. Work in Progress (and To Do list)
+###Getting Started
+5. Taking Stock
+6. Preventative Maintenance: The Case for a Case
+7. Cases and Cases
+8. Preparation
+9. System Configuration
+10. Command Line and Graphical User Interfaces
+11. User Administration
+12. Remote Computing
+
+###Appenices
+13. Projects
+14. Of Mohawk Guy and Raspberry Pi
+15. Additional Reading
 
 ##Prefatory Matter
 
