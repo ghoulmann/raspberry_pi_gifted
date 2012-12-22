@@ -16,7 +16,7 @@
 11. User Administration
 12. Remote Computing
 
-###Appenices
+###[Appenices](#appendices)
 13. Projects
 14. Of Mohawk Guy and Raspberry Pi
 15. Additional Reading
