@@ -25,7 +25,6 @@
 
 ###Nearly free to Share, Nearly Free to Remix 
 
-
 This work is licensed under a [Creative Commons 
 Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US). 
 
@@ -51,6 +50,8 @@ be made to create and deliver the Raspberry Pi. It's a video introduction
 from Cambridge given by Eben Upton, Raspberry Pi's lead developer. 
 Via YouTube, Upton offers a short description of the device and 
 the intentions that informed its design. 
+
+![Eben Upton](images/ebenupton.png)
 
 Could we get along without? Surely. We aren't naive enough to 
 believe this will revolutionize print. We fell for that once 
@@ -118,6 +119,8 @@ The Raspberry Pi is a credit-card sized, $35 computer produced
 in the UK by a non-profit foundation committed to reforming computer 
 science and engineering for school-age children. 
 
+![Tutorial by a 9-Year Old](images/tutorial by a 9yo.png)
+
 However, because of its extensibility, price-point, 
 and flexibility, Raspberry Pi proved an international favorite 
 of creative hackers and makers since its initial release in March 
@@ -125,7 +128,9 @@ of 2012. In fact, at a December talk in DC, product representative
 and engineer Rob Bishop announced that the Raspberry Pi foundation 
 anticipated a million sales by March 2013; in the first week of 
 December 2012, a tweet from the Raspberry Foundation indicated 
-that 800,000 units had already been sold. 
+that 800,000 units had already been sold.
+
+![Google Talk](images/google_talk_raspberry_pi.png) 
 
 ###Compelling Reading, Too
 Not only does the Raspberry Pi promote programming and engineering, 
