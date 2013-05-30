@@ -1,5 +1,5 @@
-Copyright Page
-**************
+Credits
+*******
 
 Copyright 2013
 ==============
