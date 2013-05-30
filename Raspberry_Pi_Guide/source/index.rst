@@ -3,13 +3,20 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Raspberry Pi: A Guide for the Gifted's documentation!
-================================================================
+Raspberry Pi: A Guide for the Gifted
+====================================
 
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
+   license
+   qr
+   preface
+   looking_forward
+   getting_started
+   reading
+   
 
 
 
@@ -17,6 +24,5 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
 
