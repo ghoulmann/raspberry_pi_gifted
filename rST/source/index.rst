@@ -10,6 +10,7 @@ Contents:
 
 .. toctree::
   :maxdepth: 3
+
  license
  qr
  fuss
