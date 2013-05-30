@@ -7,7 +7,7 @@ Raspberry Pi: A Guide for the Gifted
 ====================================
 
 .. image:: images/guide-for-gifted.jpg
-   :scale: 25 %
+   :scale: 12 %
    :alt: Momentary Cover Image
    :align: Center
 
