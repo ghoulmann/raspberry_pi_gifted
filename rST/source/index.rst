@@ -9,7 +9,7 @@ Raspberry Pi: A Guide for the Gifted
 Contents:
 
 .. toctree::
-  :maxdepth: 3
+   :maxdepth: 3
 
  license
  qr
