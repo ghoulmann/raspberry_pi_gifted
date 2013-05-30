@@ -10,12 +10,14 @@ Contents:
 
 .. toctree::
    :maxdepth: 4
-   license
-   qr
-   preface
-   looking_forward
-   getting_started
-   reading
+  license
+  qr
+  fuss
+  preface
+  features
+  looking_forward
+  getting_started
+  reading
    
 
 

@@ -1,5 +1,5 @@
-Title Page
-**********
+Copyright Page
+**************
 
 Copyright 2013
 ==============
@@ -21,10 +21,6 @@ License
 
 `Creative Commons License License <http://creativecommons.org/licenses/by-
 sa/4.0/deed.en_US">`_
-
-.. image:: http://i.creativecommons.org/l/by-sa/4.0/88x31.png
-   :scale: 100
-   :alt: ccxsa
 
 *Raspberry Pi: A Guide for the Gifted* by Rik Goldman and Sabre Goldman is licensed under a `Creative Commons <href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US>`_ Attribution-ShareAlike 4.0 International License.
 
