@@ -1,5 +1,0 @@
-Features
-********
-
-The Raspberry Pi relies on processor technology (ARM11) more akin to mobile devices than to PCs running Microsoft or Mac OSX familiar to many. To put this into perspective, expect a computer with the speed of a Pentium III PC, but with XBOX quality graphics rendered for high definition displays. The $35 model includes 2 USB 2.0 ports, a 10/100 Ethernet port, HDMI and composite (RCA) video output, and a 1/8" phone plug that provides stereo audio output. The most recent Raspberry Pis feature 512MB of memory (RAM) shared between the CPU and GPU (double the RAM of the original model at the same price point). SD cards provide secondary storage for the Raspberry Pi via an onboard SD card port.
-The USB ports provide plenty of extensibility, especially with a powered USB 2.0 hub. Many of the most innovative Raspberry Pi projects take advantage of another board feature: a GPIO pin array. This feature makes the Raspberry Pi a very flexible and programmable brain for home automation and robotics projects, for example.
