@@ -14,6 +14,7 @@ Raspberry Pi: A Guide for the Gifted
 Contents:
 
 .. toctree::
+<<<<<<< HEAD
    :maxdepth: 1
  
    license
@@ -24,6 +25,18 @@ Contents:
    looking_forward
    getting_started
    reading
+=======
+   :maxdepth: 2
+
+ license
+ qr
+ fuss
+ preface
+ features
+ looking_forward
+ getting_started
+ reading
+>>>>>>> 8a7aaf30f030110634447945202d77bf3743be35
    
 
 
